@@ -27,6 +27,7 @@ export const shadow = cv("", {
     rect: "box-shadow:rgba(0,0,0,0.027)|0|0|1.7,rgba(0,0,0,0.043)|0|0|5.6,rgba(0,0,0,0.07)|0|0|25",
     other:
       "box-shadow:0|1|2|0|rgba(0,0,0,0.03),0|1|6|-1|rgba(0,0,0,0.02),0|2|4|0|rgba(0,0,0,0.02)",
+    dropdown: "box-shadow:0|17|54|rgba(21,23,37,.2)",
   },
   default: {
     intent: "rect",
@@ -42,3 +43,13 @@ export const border = cv("", {
     intent: "primary",
   },
 });
+
+// padding: 0.2857142857rem -5 0.8571428571rem - 14;
+// margin - right: 0.4285714286rem - 7;
+// bright - #7e8190 gray-56 - for icons and text
+// dark - #1c1e2d  gray-14 - for active text like on a button
+// header text - #333543 gray-28
+// box-shadow:0|17|54|rgba(21,23,37,.2); - for dropdown
+// #f6f6f8 - bg offwhite
+// bg- darkmode - #232326 gray-20
+// bg - darkmode- superdark #0b0b0b  - #232326 gray-20 - bright for topnave and sidenav #a4a7b5 - icons color: hsla(0,0%,100%,.65) hsla(0,0%,100%,.85);

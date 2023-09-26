@@ -20,7 +20,7 @@
     open = true;
 </script>
 
-<main class="w:xs mx:auto mt:8>* mt:0>*:first">
+<main class="w:xs mx:auto mt:8>* mt:0>*:first color:gray-28">
   {#each [...Array(4).keys()] as cols}
     <Column columns={cols + 1} />
   {/each}
@@ -29,7 +29,6 @@
   <Divider />
 
   <Collapse />
-
   <div class="flex flex-wrap:wrap gap:8">
     <div class="w:200">
       <Textarea />
